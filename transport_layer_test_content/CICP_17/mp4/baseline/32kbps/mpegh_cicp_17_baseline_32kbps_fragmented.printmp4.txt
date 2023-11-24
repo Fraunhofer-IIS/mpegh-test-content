@@ -1,0 +1,220 @@
+ftyp (24)
+|-- Minor Version     : 0
+|-- Major Brand       : mp42
+|-- Compatible Brands : { mp42, dash }
+moov (642)
+ mvhd (108)
+ |-- Box Version       : 0
+ |-- Box Flags         : 0
+ |-- Creation Time     : Mon Nov 13 16:12:08 2023 CET
+ |-- Modification Time : Mon Nov 13 16:12:08 2023 CET
+ |-- Timescale         : 600
+ |-- Duration          : 0 (0 s)
+ |-- Rate              : 65536 (1)
+ |-- Volume            : 256 (1)
+ |-- Matrix            : { 65536 0 0 0 65536 0 0 0 1073741824 }
+ |-- Next Track ID     : 2
+ trak (486)
+  tkhd (92)
+  |-- Box Version       : 0
+  |-- Box Flags         : 7
+  |-- Creation Time     : Mon Nov 13 16:12:08 2023 CET
+  |-- Modification Time : Mon Nov 13 16:12:08 2023 CET
+  |-- Track ID          : 1
+  |-- Duration          : 0 (0 s)
+  |-- Layer             : 0
+  |-- Alternate Group   : 0
+  |-- Volume            : 256 (1)
+  |-- Matrix            : { 65536 0 0 0 65536 0 0 0 1073741824 }
+  |-- Width             : 0
+  |-- Height            : 0
+  mdia (386)
+   mdhd (32)
+   |-- Box Version       : 0
+   |-- Box Flags         : 0
+   |-- Creation Time     : Mon Nov 13 16:12:08 2023 CET
+   |-- Modification Time : Mon Nov 13 16:12:08 2023 CET
+   |-- Timescale         : 48000
+   |-- Duration          : 0 (0 s)
+   |-- Language          : und
+   hdlr (37)
+   |-- Box Version  : 0
+   |-- Box Flags    : 0
+   |-- Handler Type : soun
+   |-- Handler Name : soun
+   minf (309)
+    smhd (16)
+    |-- Box Version : 0
+    |-- Box Flags   : 0
+    |-- Balance     : 0 (0)
+    dinf (36)
+     dref (28)
+     |-- Box Version : 0
+     |-- Box Flags   : 0
+     |-- Entry Count : 1
+      url  (12)
+      |-- Box Version : 0
+      |-- Box Flags   : 1
+      |-- Location    : 
+    stbl (249)
+     stsd (157)
+     |-- Box Version : 0
+     |-- Box Flags   : 0
+     |-- Entry Count : 1
+      mhm1 (141)
+      |-- Channel Count : 0
+      |-- Sample Size   : 16
+      |-- Sample Rate   : 48000
+       mhaC (105)
+       |-- ###ConfigRecordData###
+       |-- ConfigurationVersion           : 1
+       |-- Mpegh3daProfileLevelIndication : 18
+       |-- ReferenceChannelLayout         : 17
+       |-- Mpegh3daConfigLength           : 92
+     stts (16)
+     |-- Box Version : 0
+     |-- Box Flags   : 0
+     |-- Entry Count : 0
+     stsc (16)
+     |-- Box Version : 0
+     |-- Box Flags   : 0
+     |-- Entry Count : 0
+     stsz (20)
+     |-- Box Version  : 0
+     |-- Box Flags    : 0
+     |-- Sample Size  : 0
+     |-- Sample Count : 0
+     stco (16)
+     |-- Box Version        : 0
+     |-- Box Flags          : 0
+     |-- Chunk Offset Count : 0
+     stss (16)
+     |-- Box Version        : 0
+     |-- Box Flags          : 0
+     |-- Sync Sample Count  : 0
+ mvex (40)
+  trex (32)
+  |-- Box Version        : 0
+  |-- Box Flags          : 0
+  |-- DefSampleDescIndex : 1
+  |-- DefSampleDuration  : 0
+  |-- DefSampleSize      : 0
+  |-- DefSampleFlags     : 0 (is_leading : 0, depends_on : 0, is_depended_on : 0, has_redundancy : 0, padding_value : 0, is_non_sync_sample : 0, degradation_priority : 0)
+moof (192)
+ mfhd (16)
+ |-- Box Version     : 0
+ |-- Box Flags       : 0
+ |-- Sequence Number : 1
+ traf (168)
+  tfhd (24)
+  |-- Box Version            : 0
+  |-- Box Flags              : 131112
+  |-- Track ID               : 1
+  |-- DefaultBaseIsMoof?     : 1
+  |-- BaseDataOffsetPresent? : 0
+  |-- SampleDescrIndPresent? : 0
+  |-- DefSampleDurPresent?   : 1
+  |-- DefSampleSizePresent?  : 0
+  |-- DefSampleFlagsPresent? : 1
+  |-- Default Sample Duration: 1024
+  |-- Default Sample Flags   : 65536 (is_leading : 0, depends_on : 0, is_depended_on : 0, has_redundancy : 0, padding_value : 0, is_non_sync_sample : 1, degradation_priority : 0)
+  tfdt (16)
+  |-- Box Version            : 0
+  |-- Box Flags              : 0
+  |-- Base Media Decode Time : 0
+  trun (120)
+  |-- Box Version             : 0
+  |-- Box Flags               : 517
+  |-- Sample Count            : 24
+  |-- DataOffsetPresent?      : 1
+  |-- FirstSampleFlagsPresent?: 1
+  |-- SampleCtsOffsetPresent? : 0
+  |-- SampleDurationPresent?  : 0
+  |-- SampleFlagsPresent?     : 0
+  |-- SampleSizePresent?      : 1
+  |-- Data Offset             : 200
+  |-- First Sample Flags      : 0 (is_leading : 0, depends_on : 0, is_depended_on : 0, has_redundancy : 0, padding_value : 0, is_non_sync_sample : 0, degradation_priority : 0)
+  |-- Trun Entry Count        : 24
+  |-- Trun Entry              : {, Sample Size: 2255 }
+  |-- Trun Entry              : {, Sample Size: 1104 }
+  |-- Trun Entry              : {, Sample Size: 941 }
+  |-- Trun Entry              : {, Sample Size: 1118 }
+  |-- Trun Entry              : {, Sample Size: 1074 }
+  |-- Trun Entry              : {, Sample Size: 963 }
+  |-- Trun Entry              : {, Sample Size: 1115 }
+  |-- Trun Entry              : {, Sample Size: 1074 }
+  |-- Trun Entry              : {, Sample Size: 962 }
+  |-- Trun Entry              : {, Sample Size: 1091 }
+  |-- Trun Entry              : {, Sample Size: 1074 }
+  |-- Trun Entry              : {, Sample Size: 957 }
+  |-- Trun Entry              : {, Sample Size: 1089 }
+  |-- Trun Entry              : {, Sample Size: 1074 }
+  |-- Trun Entry              : {, Sample Size: 940 }
+  |-- Trun Entry              : {, Sample Size: 1087 }
+  |-- Trun Entry              : {, Sample Size: 1063 }
+  |-- Trun Entry              : {, Sample Size: 930 }
+  |-- Trun Entry              : {, Sample Size: 1106 }
+  |-- Trun Entry              : {, Sample Size: 1060 }
+  |-- Trun Entry              : ... 4 more
+mdat (26080)
+| <unknown details>
+moof (132)
+ mfhd (16)
+ |-- Box Version     : 0
+ |-- Box Flags       : 0
+ |-- Sequence Number : 2
+ traf (108)
+  tfhd (20)
+  |-- Box Version            : 0
+  |-- Box Flags              : 131104
+  |-- Track ID               : 1
+  |-- DefaultBaseIsMoof?     : 1
+  |-- BaseDataOffsetPresent? : 0
+  |-- SampleDescrIndPresent? : 0
+  |-- DefSampleDurPresent?   : 0
+  |-- DefSampleSizePresent?  : 0
+  |-- DefSampleFlagsPresent? : 1
+  |-- Default Sample Flags   : 65536 (is_leading : 0, depends_on : 0, is_depended_on : 0, has_redundancy : 0, padding_value : 0, is_non_sync_sample : 1, degradation_priority : 0)
+  tfdt (16)
+  |-- Box Version            : 0
+  |-- Box Flags              : 0
+  |-- Base Media Decode Time : 24576
+  trun (64)
+  |-- Box Version             : 0
+  |-- Box Flags               : 773
+  |-- Sample Count            : 5
+  |-- DataOffsetPresent?      : 1
+  |-- FirstSampleFlagsPresent?: 1
+  |-- SampleCtsOffsetPresent? : 0
+  |-- SampleDurationPresent?  : 1
+  |-- SampleFlagsPresent?     : 0
+  |-- SampleSizePresent?      : 1
+  |-- Data Offset             : 140
+  |-- First Sample Flags      : 0 (is_leading : 0, depends_on : 0, is_depended_on : 0, has_redundancy : 0, padding_value : 0, is_non_sync_sample : 0, degradation_priority : 0)
+  |-- Trun Entry Count        : 5
+  |-- Trun Entry              : { Sample Duration: 1024, Sample Size: 2245 }
+  |-- Trun Entry              : { Sample Duration: 1024, Sample Size: 1044 }
+  |-- Trun Entry              : { Sample Duration: 1024, Sample Size: 929 }
+  |-- Trun Entry              : { Sample Duration: 1024, Sample Size: 1280 }
+  |-- Trun Entry              : { Sample Duration: 128, Sample Size: 1065 }
+mdat (6571)
+| <unknown details>
+
+
+Overhead Info: 
+--Total Size: 33641 [Byte]
+--Payload Size: 32635 [Byte]
+--Overhead: 1006 [Byte] (2.9904%)
+
+ShortTrack Info: 0
+########################################
+-TrackIndex      : 0
+-- ID            : 1
+-- Handler       : soun
+-- Type          : Audio
+-- Codec         : mhm1
+-- Duration      : 28800
+-- Timescale     : 48000
+-- Language      : und
+-- MaxSampleSize : 2255
+-- SampleCount   : 29

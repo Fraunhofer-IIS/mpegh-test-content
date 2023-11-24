@@ -1,0 +1,142 @@
+ftyp (20)
+|-- Minor Version     : 0
+|-- Major Brand       : mp42
+|-- Compatible Brands : { mp42 }
+moov (726)
+ mvhd (108)
+ |-- Box Version       : 0
+ |-- Box Flags         : 0
+ |-- Creation Time     : Mon Nov 13 16:12:29 2023 CET
+ |-- Modification Time : Mon Nov 13 16:12:29 2023 CET
+ |-- Timescale         : 600
+ |-- Duration          : 360 (0.6 s)
+ |-- Rate              : 65536 (1)
+ |-- Volume            : 256 (1)
+ |-- Matrix            : { 65536 0 0 0 65536 0 0 0 1073741824 }
+ |-- Next Track ID     : 2
+ trak (610)
+  tkhd (92)
+  |-- Box Version       : 0
+  |-- Box Flags         : 7
+  |-- Creation Time     : Mon Nov 13 16:12:29 2023 CET
+  |-- Modification Time : Mon Nov 13 16:12:29 2023 CET
+  |-- Track ID          : 1
+  |-- Duration          : 360 (0 s)
+  |-- Layer             : 0
+  |-- Alternate Group   : 0
+  |-- Volume            : 256 (1)
+  |-- Matrix            : { 65536 0 0 0 65536 0 0 0 1073741824 }
+  |-- Width             : 0
+  |-- Height            : 0
+  mdia (510)
+   mdhd (32)
+   |-- Box Version       : 0
+   |-- Box Flags         : 0
+   |-- Creation Time     : Mon Nov 13 16:12:29 2023 CET
+   |-- Modification Time : Mon Nov 13 16:12:29 2023 CET
+   |-- Timescale         : 48000
+   |-- Duration          : 28800 (0.6 s)
+   |-- Language          : und
+   hdlr (37)
+   |-- Box Version  : 0
+   |-- Box Flags    : 0
+   |-- Handler Type : soun
+   |-- Handler Name : soun
+   minf (433)
+    smhd (16)
+    |-- Box Version : 0
+    |-- Box Flags   : 0
+    |-- Balance     : 0 (0)
+    dinf (36)
+     dref (28)
+     |-- Box Version : 0
+     |-- Box Flags   : 0
+     |-- Entry Count : 1
+      url  (12)
+      |-- Box Version : 0
+      |-- Box Flags   : 1
+      |-- Location    : 
+    stbl (373)
+     stsd (125)
+     |-- Box Version : 0
+     |-- Box Flags   : 0
+     |-- Entry Count : 1
+      mhm1 (109)
+      |-- Channel Count : 0
+      |-- Sample Size   : 16
+      |-- Sample Rate   : 48000
+       mhaC (73)
+       |-- ###ConfigRecordData###
+       |-- ConfigurationVersion           : 1
+       |-- Mpegh3daProfileLevelIndication : 16
+       |-- ReferenceChannelLayout         : 1
+       |-- Mpegh3daConfigLength           : 60
+     stts (32)
+     |-- Box Version : 0
+     |-- Box Flags   : 0
+     |-- Entry Count : 2
+     |-- Stts Entry  : { Sample Count: 28, Sample Delta: 1024 }
+     |-- Stts Entry  : { Sample Count: 1, Sample Delta: 128 }
+     stsc (28)
+     |-- Box Version : 0
+     |-- Box Flags   : 0
+     |-- Entry Count : 1
+     |-- Stsc Entry  : { First Chunk: 1, Sample per Chunk: 29, Sample Description Index: 1 }
+     stsz (136)
+     |-- Box Version  : 0
+     |-- Box Flags    : 0
+     |-- Sample Size  : 0
+     |-- Sample Count : 29
+     |-- Entry Size   : 335
+     |-- Entry Size   : 85
+     |-- Entry Size   : 98
+     |-- Entry Size   : 105
+     |-- Entry Size   : 93
+     |-- Entry Size   : 93
+     |-- Entry Size   : 91
+     |-- Entry Size   : 82
+     |-- Entry Size   : 83
+     |-- Entry Size   : 82
+     |-- Entry Size   : 81
+     |-- Entry Size   : 77
+     |-- Entry Size   : 79
+     |-- Entry Size   : 80
+     |-- Entry Size   : 78
+     |-- Entry Size   : 77
+     |-- Entry Size   : 78
+     |-- Entry Size   : 76
+     |-- Entry Size   : 56
+     |-- Entry Size   : 81
+     |-- Entry Size   : ... 9 more
+     stco (20)
+     |-- Box Version        : 0
+     |-- Box Flags          : 0
+     |-- Chunk Offset Count : 1
+     |-- Chunk Offset       : 754
+     stss (24)
+     |-- Box Version        : 0
+     |-- Box Flags          : 0
+     |-- Sync Sample Count  : 2
+     |-- Sync Sample        : 1
+     |-- Sync Sample        : 25
+mdat (2845)
+| <unknown details>
+
+
+Overhead Info: 
+--Total Size: 3591 [Byte]
+--Payload Size: 2837 [Byte]
+--Overhead: 754 [Byte] (20.9969%)
+
+ShortTrack Info: 0
+########################################
+-TrackIndex      : 0
+-- ID            : 1
+-- Handler       : soun
+-- Type          : Audio
+-- Codec         : mhm1
+-- Duration      : 28800
+-- Timescale     : 48000
+-- Language      : und
+-- MaxSampleSize : 335
+-- SampleCount   : 29
